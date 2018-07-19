@@ -1,5 +1,5 @@
 import React from "react";
-import { FaHtml5 } from "react-icons/lib/fa"
+import { FaCodeFork } from "react-icons/lib/fa"
 import { 
   IoSocialHtml5Outline, 
   IoSocialNodejs, 
@@ -9,7 +9,7 @@ import {
    } from "react-icons/lib/io"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact } from '@fortawesome/free-brands-svg-icons'
+import { faReact, faJs, faJsSquare, faPhp, faGit, faLinux, faAws, faJava, faDocker } from '@fortawesome/free-brands-svg-icons'
 
 const Skills = () => (
   <div className="row skill">
@@ -50,17 +50,11 @@ const Skills = () => (
 
               <div className="columns">
                 <li>
-                  <span className="bar-expand gothis"><IoSocialJavascriptOutline/></span>
+                  <span className="bar-expand gothis"><FontAwesomeIcon icon={faJsSquare}/></span>
                   <em>JavaScript</em>
                 </li>
               </div>
 
-              <div className="columns">
-                <li>
-                  <span className="bar-expand gothis" />
-                  <em>JQuery</em>
-                </li>
-              </div>
 
               <div className="columns">
                 <li>
@@ -75,6 +69,22 @@ const Skills = () => (
                   <em>Nodejs</em>
                 </li>
               </div>
+
+              <div className="columns">
+                <li>
+                  <span className="bar-expand gothis"><FaCodeFork /></span>
+                  <em>Git</em>
+                </li>
+              </div>
+
+
+              <div className="columns">
+                <li>
+                  <span className="bar-expand gothis" />
+                  <em>JQuery</em>
+                </li>
+              </div>
+
             </ul>
           </div>
         </div>
@@ -107,7 +117,7 @@ const Skills = () => (
 
               <div className="columns">
                 <li>
-                  <span className="bar-expand gettingit" />
+                  <span className="bar-expand gettingit"><FontAwesomeIcon icon={faPhp}/></span>
                   <em>PHP</em>
                 </li>
               </div>
@@ -135,14 +145,14 @@ const Skills = () => (
 
                <div className="columns">
                 <li>
-                  <span className="bar-expand gettingit" />
+                  <span className="bar-expand gettingit"><FontAwesomeIcon icon={faLinux}/></span>
                   <em>Linux</em>
                 </li>
               </div>
 
                <div className="columns">
                 <li>
-                  <span className="bar-expand gettingit" />
+                  <span className="bar-expand gettingit"><FontAwesomeIcon icon={faAws}/></span>
                   <em>AWS</em>
                 </li>
               </div>
@@ -167,7 +177,7 @@ const Skills = () => (
 
                 <div className="columns">
                   <li>
-                    <span className="bar-expand stilllearning" />
+                    <span className="bar-expand stilllearning"><FontAwesomeIcon icon={faJava}/></span>
                     <em>Java</em>
                   </li>
                 </div>
@@ -181,7 +191,7 @@ const Skills = () => (
 
                 <div className="columns">
                   <li>
-                    <span className="bar-expand stilllearning" />
+                    <span className="bar-expand stilllearning"><FontAwesomeIcon icon={faDocker}/></span>
                     <em>Docker</em>
                   </li>
                 </div>

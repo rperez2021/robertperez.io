@@ -26,8 +26,8 @@ const Portfolio = () => (
                 <img alt="" src={Coffee} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Coffee</h5>
-                    <p>Illustrration</p>
+                    <h5>Brevity Is</h5>
+                    <p>Web Design Firm</p>
                   </div>
                 </div>
                 <div className="link-icon">
@@ -43,8 +43,8 @@ const Portfolio = () => (
                 <img alt="" src={Console} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Console</h5>
-                    <p>Web Development</p>
+                    <h5>SJDB Advocates</h5>
+                    <p>Web Design</p>
                   </div>
                 </div>
                 <div className="link-icon">

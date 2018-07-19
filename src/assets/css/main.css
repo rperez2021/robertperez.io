@@ -840,7 +840,7 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/header-background.jpg) no-repeat top center;
+  background: #161415 url(../images/header-background3.jpg) no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -870,12 +870,12 @@ header .banner-text h1 {
   font: 90px/1.1em "opensans-bold", sans-serif;
   color: #fff;
   letter-spacing: -2px;
-  margin: 0 auto 18px auto;
+  margin: 0 auto 300px auto;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
 }
 header .banner-text h3 {
   font: 18px/1.9em "librebaskerville-regular", serif;
-  color: #a8a8a8;
+  color: #fff;
   margin: 0 auto;
   width: 70%;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
@@ -883,6 +883,7 @@ header .banner-text h3 {
 header .banner-text h3 span,
 header .banner-text h3 a {
   color: #fff;
+  font-weight: bold;
 }
 header .banner-text hr {
   width: 60%;
@@ -1130,7 +1131,7 @@ ul#nav li.current a {
 
 .bars {
   width: 100%;
-  float: left;
+  float: center;
   padding: 0;
   text-align: center;
 }
@@ -1179,7 +1180,7 @@ ul#nav li.current a {
 }
 
 .gettingit {
-  width: 50%;
+  width: 100%;
   -moz-animation: jquery 2s ease;
   -webkit-animation: jquery 2s ease;
   color: #00cccc;
@@ -1188,7 +1189,7 @@ ul#nav li.current a {
 }
 
 .stilllearning {
-  width: 5%;
+  width: 100%;
   -moz-animation: jquery 2s ease;
   -webkit-animation: jquery 2s ease;
   color: #00cccc;
