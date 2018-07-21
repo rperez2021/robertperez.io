@@ -79,7 +79,7 @@ export class PortfolioModal extends React.Component {
           <p>{this.props.data.desc}</p>
           See Live Version At: <a href="{this.props.data.url}">{this.props.data.url}</a>
           <p>Created with: {this.props.data.tools}</p>
-
+          <p>{this.props.data.collaborators}</p>
           <button onClick={this.handleCloseModal}>Close Modal</button>
         </Modal>
 
