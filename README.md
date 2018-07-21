@@ -1,10 +1,10 @@
-# gatsby-starter-ceevee
+# RobertPerez.io Portfolio Website
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+
 
 🚀 Gatsby Starter - CeeVee | Design by Styleshout | Developed in React ⚛️ by Aman Mittal
 
-**[Preview Link](https://gatsby-starter-ceevee.surge.sh)**
+**[Preview Link](https://robertperez.io)**
 
 ### Features:
 
@@ -12,7 +12,7 @@
 * Single Page Resume/Portfolio site
 * Target audience Developers, Designers, etc.
 * Used CSS Modules, easy to manipulate
-* FontAwsome Library for icons
+* FontAwsome Library and React-Icons for icons
 * Responsive Design, optimized for Mobile devices
 
 ## Installation
@@ -27,15 +27,11 @@ Run `gatsby develop` in the terminal to start.
 
 Find more starter templates like this on [Gatsby Starters](https://www.gatsbyjs.org/docs/gatsby-starters/)
 
-### NOTE
-
-If you are using this theme with Gatsby, please leave a link of your site below. You can inspire someone!
-
 #### License
 
 MIT
 
-## Contributors
+## Original Contributors
 
 * [Aman Mittal](www.amanhimself.me)
 * [Joe](https://github.com/jastuccio)
