@@ -1,6 +1,7 @@
 import React from "react";
 import SocialLinks from "./SocialLinks";
 import { FaChevronCircleUp } from "react-icons/lib/fa";
+import { Link } from 'react-scroll'
 
 const Footer = () => (
   <footer id="footer">
@@ -18,15 +19,15 @@ const Footer = () => (
           </li>
           <li>
             Developed in React ⚛️ by{" "}
-            <a href="http://www.amanhimself.me">Aman Mittal</a>
+            <a href="https://www.robertoperez.io">Roberto Perez</a>
           </li>
         </ul>
       </div>
 
       <div id="go-top">
-        <a className="smoothscroll" title="Back to Top" href="#home">
-          <FaChevronCircleUp />
-        </a>
+      <Link activeClass="active" className="linkstyle" to="home" spy={true} smooth={true} duration={500} >
+      <FaChevronCircleUp />
+          </Link>
       </div>
     </div>
   </footer>

@@ -393,6 +393,7 @@ dd { margin: 0 0 0 20px; }
 	counter-increment: definitions;
 }
 .dictionary-style dd:before {
+  
   .pagination {
 	content: counter(definitions, decimal) ". ";
 }
@@ -840,7 +841,7 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/header-background3.jpg) no-repeat top center;
+  background: #161415 url(../images/header-background3.jpg) no-repeat center center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -870,12 +871,12 @@ header .banner-text h1 {
   font: 90px/1.1em "opensans-bold", sans-serif;
   color: #fff;
   letter-spacing: -2px;
-  margin: 0 auto 300px auto;
+  margin: 0 auto 18px auto;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
 }
 header .banner-text h3 {
   font: 18px/1.9em "librebaskerville-regular", serif;
-  color: #fff;
+  color: #a8a8a8;
   margin: 0 auto;
   width: 70%;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
@@ -883,7 +884,6 @@ header .banner-text h3 {
 header .banner-text h3 span,
 header .banner-text h3 a {
   color: #fff;
-  font-weight: bold;
 }
 header .banner-text hr {
   width: 60%;
@@ -1005,6 +1005,26 @@ ul#nav li a:active {
 ul#nav li.current a {
   color: #f06000;
 }
+
+/* ul#nav li .linkstyle:active {
+  background-color: transparent !important;
+} */
+
+ul#nav li.current:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+ul#nav li.current .linkstyle {
+  color:#00E3F0;
+  font-weight: bold;
+}
+
+ul#nav li.current .activelinkstyle {
+  color: #f06000;
+  font-weight: bold;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
@@ -1301,14 +1321,15 @@ ul#nav li.current a {
 #portfolio {
   background: #ebeeee;
   padding-top: 90px;
-  padding-bottom: 60px;
+  padding-bottom: 120px;
 }
 #portfolio h1 {
   font: 15px/24px "opensans-semibold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
-  margin-bottom: 48px;
+  padding-top: 100px;
+  margin-bottom: 200px;
   color: #95a3a3;
 }
 
@@ -1320,6 +1341,7 @@ ul#nav li.current a {
   background: #fff;
   overflow: hidden;
   position: relative;
+  border-radius: 25px;
 
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -1401,6 +1423,11 @@ ul#nav li.current a {
   opacity: 1;
   -moz-opacity: 1;
   filter: alpha(opacity=100);
+}
+
+.portfolio-modal-image {
+  height: 30%;
+  width: 30%
 }
 
 /* popup modal */

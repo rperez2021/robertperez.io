@@ -9,6 +9,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
     "@fortawesome/react-fontawesome": "0.1.0-11",
     "gatsby": "^1.9.145",
+    "gatsby-cli": "^1.1.58",
     "gatsby-link": "^1.6.32",
     "gatsby-plugin-favicon": "^2.1.1",
     "gatsby-plugin-google-analytics": "^1.0.12",
@@ -23,6 +24,8 @@
     "gatsby-transformer-remark": "^1.7.21",
     "gatsby-transformer-sharp": "^1.6.14",
     "react-icons": "2.2.7",
+    "react-modal": "^3.5.1",
+    "react-scroll": "^1.7.10",
     "react-slick": "0.16.0",
     "slick-carousel": "1.8.1",
     "typography-theme-bootstrap": "0.16.7"

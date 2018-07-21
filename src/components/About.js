@@ -5,7 +5,7 @@ import { withPrefix } from "gatsby-link"
 import profilePic from "../assets/images/tinified/rob_211.jpg";
 
 const About = () => (
-  <section id="about">
+  <section id="about" name="about">
     <div className="row">
       <div className="three columns">
         <img className="profile-pic" src={profilePic} alt="" />
