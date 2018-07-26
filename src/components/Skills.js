@@ -10,12 +10,18 @@ import {
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact, faJs, faJsSquare, faPhp, faGit, faLinux, faAws, faJava, faDocker } from '@fortawesome/free-brands-svg-icons'
+import { faDatabase } from '@fortawesome/free-solid-svg-icons'
+import ReduxIcon from './icons/Redux.js'
+import MongoIcon from './icons/Mongo.js'
+import JqueryIcon from './icons/Jquery.js'
+import FirebaseIcon from './icons/Firebase.js'
 
 const Skills = () => (
   <div className="row skill">
     <div className="three columns header-col">
       <h1>
         <span>Skills</span>
+  
       </h1>
     </div>
 
@@ -80,7 +86,7 @@ const Skills = () => (
 
               <div className="columns">
                 <li>
-                  <span className="bar-expand gothis" />
+                  <span className="bar-expand gothis"/>
                   <em>JQuery</em>
                 </li>
               </div>
@@ -110,7 +116,7 @@ const Skills = () => (
 
               <div className="columns">
                 <li>
-                  <span className="bar-expand gettingit" />
+                  <span className="bar-expand gettingit"><ReduxIcon /></span>
                   <em>Redux</em>
                 </li>
               </div>
@@ -124,21 +130,21 @@ const Skills = () => (
 
               <div className="columns">
                 <li>
-                  <span className="bar-expand gettingit" />
+                  <span className="bar-expand gettingit"><FontAwesomeIcon icon={faDatabase}/></span>
                   <em>SQL</em>
                 </li>
               </div>
 
               <div className="columns">
                 <li>
-                  <span className="bar-expand gettingit" />
+                  <span className="bar-expand gettingit"><MongoIcon/></span>
                   <em>MongoDB</em>
                 </li>
               </div>
 
               <div className="columns">
                 <li>
-                  <span className="bar-expand gettingit" />
+                  <span className="bar-expand gettingit"/>
                   <em>Firebase</em>
                 </li>
               </div>

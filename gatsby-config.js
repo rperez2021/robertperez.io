@@ -1,11 +1,26 @@
 module.exports = {
   siteMetadata: {
-    title: "Robert Perez Portfolio",
+    title: "Roberto Perez Portfolio",
     author: "Roberto Perez",
-    description: "Web Developer, Tech Enthusiast, Closet Nerd, Husband and Dad"
+    keywords: "Web Design, Portfolio, Web Developer, San Diego, Brevity Is, Software Developer, Font-End Web Developer",
+    description: "Portfolio Website for Roberto Perez, Web Developer, Tech Enthusiast, Closet Nerd, Husband and Dad"
   },
   pathPrefix: "/",
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-121190454-2",
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
+      },
+    },
     {
       resolve: `gatsby-plugin-favicon`,
       options: {

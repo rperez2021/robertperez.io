@@ -6,17 +6,9 @@ import { siteMetadata } from "../../gatsby-config";
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet>
-      <meta name="author" description={siteMetadata.author} />
-      {/* <link
-        rel="stylesheet"
-        type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-      />
-      <link
-        rel="stylesheet"
-        type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-      /> */}
+      <meta name="description" content={siteMetadata.description} />
+      <meta name="keywords" content={siteMetadata.keywords} />
+      <meta name="author" content={siteMetadata.author} />
       <title>{siteMetadata.title}</title>
       <link rel="icon" href="../assets/favicon.png" type="image/x-icon"/>
       
