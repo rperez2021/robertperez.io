@@ -11,6 +11,7 @@ const TemplateWrapper = ({ children }) => (
       <meta name="author" content={siteMetadata.author} />
       <title>{siteMetadata.title}</title>
       <link rel="icon" href="../assets/favicon.png" type="image/x-icon"/>
+      <html lang="en" />
       
     </Helmet>
     {children()}

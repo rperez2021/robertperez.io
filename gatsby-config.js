@@ -72,6 +72,19 @@ module.exports = {
         ]
       }
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Robertperez.io",
+        short_name: "Rperez",
+        start_url: "/",
+        background_color: "#f7f0eb",
+        theme_color: "#a2466c",
+        display: "minimal-ui",
+        icon: "src/assets/favicon.png", // This path is relative to the root of the site.
+      },
+    },
+    `gatsby-plugin-offline`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
