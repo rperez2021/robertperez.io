@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-ceevee",
-  "description": "Gatsby Starter - CeeVee ",
+  "name": "roberto-perez-resume-portfolio",
+  "description": "Roberto Perez Resume and Portfolio Website",
   "version": "1.0.1",
-  "author": "Aman Mittal <amandeepmittal@live.com>",
+  "author": "Roberto Perez <rperez.res@gmail.com>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
     "@fortawesome/free-brands-svg-icons": "^5.1.0-11",
