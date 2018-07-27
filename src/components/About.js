@@ -30,11 +30,9 @@ const About = () => (
             <h2>Contact Details</h2>
             <p className="address">
               <span>Roberto Perez</span>
-              <br />
-              <span>
-                6216 Tarragona Dr
-                <br /> San Diego, CA, 92115
-              </span>
+
+                <br /> San Diego, CA
+             
               <br />
               <span>(619)254-4227</span>
               <br />
